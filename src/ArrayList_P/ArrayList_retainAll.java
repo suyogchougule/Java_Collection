@@ -15,7 +15,7 @@ public class ArrayList_retainAll
 		  al2.add("Hanumat");  
 		  al.retainAll(al2);  
 		  System.out.println("iterating the elements after retaining the elements of al2");  
-		  Iterator itr=al.iterator();  
+		  Iterator<String> itr=al.iterator();  
 		  while(itr.hasNext())
 		  {  
 		   System.out.println(itr.next());  
